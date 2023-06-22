@@ -1,9 +1,8 @@
 import streamlit as st
 import pandas as pd
-import warnings
 from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
-warnings.filterwarnings("ignore")
+
 
 st.write("""
 # Predictor de flores
@@ -44,7 +43,7 @@ st.write(iris.target_names)
 
 st.subheader('Predicción')
 st.write(iris.target_names[prediction])
-#st.write(prediction)
+st.write(prediction)
 
 st.subheader('Predicción de probabilidad')
 st.write(prediction_proba)
