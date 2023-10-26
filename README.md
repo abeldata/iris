@@ -1,6 +1,6 @@
 # streamlit-Iris
 
-Clasificador Irisa
+Clasificador Iris
 
 ## Demo App
 
